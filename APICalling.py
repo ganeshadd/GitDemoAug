@@ -6,6 +6,8 @@ from google import genai
 #Defining API KEY
 client =OpenAI(api_key="Your_APIKey")
 
+client2= genai.Client(api_key="Your GAPIKey")
+
 #Calling LLM
 def call_llm(prompt):
     response = client.chat.completions.create(
@@ -15,6 +17,15 @@ def call_llm(prompt):
         ]
     )
     return response.choices[0].message.content
+
+def call_llm2(prompt):
+    response = client2.models.generate_content(
+        model="gemini-3.6-flash",
+        contents=prompt
+    )
+    return response.text
+
+
 
 #Building a fucntion to process text
 
