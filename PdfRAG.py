@@ -31,7 +31,7 @@ text_splitter= RecursiveCharacterTextSplitter(chunk_size =100,chunk_overlap=10)
 chunks =text_splitter.split_documents(pages)
 print(f"Total chunks : {len(chunks)}")
 
-## 4. Embeddingsexit
+## 4. Embeddings exit
 embeddings=OllamaEmbeddings(model="nomic-embed-text")
 
 ## 5. Vector Data base
