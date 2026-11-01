@@ -1,0 +1,7 @@
+This is a sample document.
+It contains multiple lines.
+We will process it using Python.
+You guys have seen simple file handling.
+You guys are amazing, I love the energy you carry.hello Ganesh!
+Welcome to file handling in pythonhello Ganesh!
+Welcome to file handling in python
