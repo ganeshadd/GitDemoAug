@@ -1,0 +1,26 @@
+[
+    {
+        "request_id": "247adfc3-1bc5-4da0-80f2-41411a708308",
+        "timestamp": "2026-11-04 07:53:00.489710",
+        "original_input": "Hello, I want help with my bank account",
+        "masked_text": "Hello, I want help with my bank account",
+        "pii_detected": {
+            "account_number": false,
+            "email": false,
+            "phone": false
+        },
+        "compliance_status": "Approved"
+    },
+    {
+        "request_id": "8fe18f44-1193-47fa-8050-27334dea8297",
+        "timestamp": "2026-11-04 07:54:42.615849",
+        "original_input": "My mobile number is 9874561230 and email is ganesh@gyaanlytics.com",
+        "masked_text": "My mobile number is 9874561230 and email is [Masked Email]",
+        "pii_detected": {
+            "account_number": false,
+            "email": true,
+            "phone": false
+        },
+        "compliance_status": "Approved"
+    }
+]
